@@ -43,6 +43,9 @@ library(devtools)
 assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
 ```
 
+### Install X11
+__macOS__ users also have to install X11 server to use Cairo as it no longer ships with MacOS. To do this go to https://www.xquartz.org.
+
 ### Install grwat package
 
 If all previous steps are completed successfully, grwat package can be installed via single command:
